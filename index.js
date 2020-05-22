@@ -11,7 +11,7 @@ nunjucks.configure("views",{
 
 app.set("view engine", "njk");
 
-const users = ['João Divino','Ana Luiza', 'Yasmin Rosa','Daniel', 'Flor']
+const users = ['João Divino','Ana Luiza', 'Yasmin Rosa','Daniel', 'Flor','Maria']
 
 app.get("/", (req,res)=>{
   return res.render("list" , {users});
